@@ -1,6 +1,6 @@
-🧠 **Twitter-Sentiment-Analysis: A Benchmark of Supervised Machine Learning Approaches** Comparative Sentiment Analysis on Twitter Data Using Machine Learning Models
+# 🧠  **Twitter-Sentiment-Analysis: A Benchmark of Supervised Machine Learning Approaches** Comparative Sentiment Analysis on Twitter Data Using Machine Learning Models
 
-📌 **Project Overview**
+## 📌 **Project Overview**
 
 - This project performs **sentiment analysis on Twitter data** to classify tweets as positive or negative using multiple supervised machine learning models.
 
@@ -9,7 +9,7 @@
 - The study compares preprocessing techniques, feature extraction methods, and model performances to identify the most effective approach for real-world Twitter sentiment classification.
 
 
-🎯 **Objectives**
+## 🎯 **Objectives**
 
 - Compare performance of different machine learning models for tweet sentiment classification.
 Analyze impact of **data quality** (noisy vs. structured datasets).
@@ -31,7 +31,7 @@ Analyze impact of **data quality** (noisy vs. structured datasets).
 
 Each dataset includes tweet text and corresponding sentiment labels for supervised training.
 
-⚙️ **Methodology**
+## ⚙️ **Methodology**
 🧹 **Data Preprocessing**
 
 
@@ -46,14 +46,14 @@ Each dataset includes tweet text and corresponding sentiment labels for supervis
 
 Train-test split and vectorization of text for model training.
 
-💡 **Feature Engineering**
+## 💡 **Feature Engineering**
 
 - Applied **TF-IDF Vectorization** for Sentiment140 dataset to convert tweets into neumeric data.
 
 - Used **SMOTE(Synthetic Minority Oversampling Technique)**  on TweetEval for handling class imbalance.
 
 
-🤖 **Model Development**
+## 🤖 **Model Development**
 
 - Implemented and compared multiple supervised machine learning models:
 
@@ -73,14 +73,14 @@ Train-test split and vectorization of text for model training.
 
 - Hard Voting Ensemble (combining top models)
 
-🧬 **Optimization**
+## 🧬 **Optimization**
 
 - Hyperparameter tuning using Grid Search and Randomized Search CV.
 
 - applied to XGBoost and Logistic Regression.
 
 
-📈 **Evaluation Metrics**
+## 📈 **Evaluation Metrics**
 
 - Accuracy
 
@@ -96,7 +96,7 @@ Train-test split and vectorization of text for model training.
 
 ***Results are compared between Sentiment140 and TweetEval datasets to show the impact of data cleanliness and structure on model performance.***
 
-🔍 **Key Insights**
+## 🔍 **Key Insights**
 
 - **Structured datasets (TweetEval)**  outperform ** noisy ones (Sentiment140)**  due to cleaner labeling.
 
@@ -106,7 +106,7 @@ Train-test split and vectorization of text for model training.
 
 - Comparative analysis reveals data noise as a critical factor influencing sentiment accuracy.
 
-🧠 **Future Work**
+## 🧠 **Future Work**
 
 - Incorporate **deep learning architectures (LSTM, BERT)**  for contextual sentiment understanding.
 
@@ -117,7 +117,7 @@ Train-test split and vectorization of text for model training.
 - Deploy optimized models through a **REST API**  or lightweight web app.
 
 
-📦 **Tech Stack**
+## 📦 **Tech Stack**
 
 **Languages:**  Python
 
