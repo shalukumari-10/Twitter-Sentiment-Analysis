@@ -26,7 +26,7 @@ Analyze impact of **data quality** (noisy vs. structured datasets).
 | **Dataset** | **Source** | **Description** |
 |--------------|------------|-----------------|
 | **Sentiment140** | [Kaggle](https://www.kaggle.com/datasets/kazanova/sentiment140) | 1.6M noisy tweets with sentiment labels as 0-> negative, 2->neutral, 4->positive. |
-| **TweetEval** | [HuggingFace](https://www.kaggle.com/datasets/cardiffnlp/tweeteval) | Structured dataset for binary sentiment analysis (positive/negative). |
+| **TweetEval** | [HuggingFace](https://huggingface.co/datasets) | Structured dataset for binary sentiment analysis (positive/negative). |
 
 
 Each dataset includes tweet text and corresponding sentiment labels for supervised training.
