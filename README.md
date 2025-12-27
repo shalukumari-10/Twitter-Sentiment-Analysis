@@ -1,4 +1,4 @@
-# 🧠  **Twitter-Sentiment-Analysis: A Benchmark of Supervised Machine Learning Approaches** Comparative Sentiment Analysis on Twitter Data Using Machine Learning Models
+# 🧠  **Twitter-Sentiment-Analysis: A Benchmark of Supervised Machine Learning Approaches** 
 
 ## 📌 **Project Overview**
 
