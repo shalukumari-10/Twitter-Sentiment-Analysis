@@ -49,8 +49,7 @@ else:
 # ---------------- LOAD MODEL ----------------
 
 vectorizer = load("tfidf_vectorizer.joblib")
-model = load("ensemble_model.joblib")
-
+model = load("linear_svm_model.joblib")
 # ---------------- TEXT CLEANING ----------------
 
 def clean_text(text):
